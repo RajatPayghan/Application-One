@@ -25,8 +25,7 @@ jobs:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v2
 
-      - name: Azure WebApp
-        uses: Azure/webapps-deploy@v2
+      - uses: Azure/webapps-deploy@v2
         with:
         # Name of the Azure Web App
           app-name: Application-One
